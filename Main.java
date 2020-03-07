@@ -130,6 +130,7 @@ class Main {
       System.err.println("Die eingegebene Zahl liegt nicht zwischen 1 und 3! Diese Runde wird ignoriert.");
       // sleep for 1 sec to give the user time to read the sysout
       Thread.sleep(1000);
+      nextRound();
     }
 
     // The game has only 10 rounds if it hit 10 rounds it will show a simple
